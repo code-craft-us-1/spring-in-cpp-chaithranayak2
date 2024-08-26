@@ -1,11 +1,11 @@
 #include "stats.h"
 #include <cmath>
 
-using namespace Statistics;
+using namespace std;
 
-Stats Statistics::ComputeStatistics(const std::vector<float>& input) {
+Statistics::Stats Statistics::ComputeStatistics(const std::vector<float>& input) {
     //Implement statistics here
-    Stats statsanswer;
+    Statistics::Stats statsanswer;
     statsanswer.average = NAN;
     statsanswer.max = NAN;
     statsanswer.min = NAN;
